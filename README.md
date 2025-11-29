@@ -2,8 +2,7 @@
 
 An End-to-End Business Intelligence project transforming raw marketing data into actionable insights using **SQL**, **Python (NLP)**, and **Power BI**.
 
-![Dashboard Banner](images/dashboard_overview_screenshot.png)
-*(⚠️ Replace this with a screenshot of your Dashboard Overview page)*
+![Dashboard Banner](dashboard_overview_screenshot.png)
 
 ## 📋 Project Context
 The goal of this project was to centralize scattered marketing data to track customer journeys, analyze product performance, and understand customer sentiment. The solution involves a full data pipeline: from extraction and cleaning to advanced AI enrichment and interactive reporting.
@@ -36,9 +35,9 @@ The final layer is a multi-page report designed for stakeholders.
     *   🗺️ **Geographic Distribution:** Sales performance by region.
 
 ## 📂 Repository Structure
-- `SQL_Scripts/` : Contains the extraction and transformation logic (`customers.sql`, `journey.sql`, etc.).
-- `Python_Scripts/` : The NLP script for sentiment scoring (`customer_reviews_enrichment.py`).
-- `Dashboard/` : The final Power BI file (`.pbix`) and a PDF export.
+- `customers.sql`, `products.sql`, etc. : SQL extraction logic.
+- `customer_reviews_enrichment.py` : The NLP script for sentiment scoring.
+- `Dashboard.pdf` : A PDF export of the final report.
 
 ## 🚀 Key Results
 - **Full Visibility:** Unified view of the customer journey from social media engagement to final purchase.
